@@ -1,3 +1,4 @@
+#Laboratorio 2.1.1.19
 print("    *")
 print("   * *")
 print("  *   *")
@@ -6,3 +7,15 @@ print("***   ***")
 print("  *   *")
 print("  *   *")
 print("  *****")
+
+print("    *\n   * *\n  *   *\n *     *\n***   ***\n  *   *\n  *   *")
+print("  *****")
+
+print("    *    "*2)
+print("   * *   "*2)
+print("  *   *  "*2)
+print(" *     * "*2)
+print("***   ***"*2)
+print("  *   *  "*2)
+print("  *   *  "*2)
+print("  *****  "*2)

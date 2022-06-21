@@ -1,8 +1,10 @@
-#Laboratorio 3.2.1.10
+#Laboratorio 3.2.1.11
+word_without_vowels = ""
+
 # Indicar al usuario que ingrese una palabra
-# y asignarlo a la variable user_word.
+# y asignarla a la variable user_word.
 user_word=input("Ingrese una palabra: ")
-user_word=user_word.upper()
+user_word = user_word.upper()
 
 for letter in user_word:
     if letter=="A":
@@ -15,5 +17,6 @@ for letter in user_word:
         continue
     elif letter=="U":
         continue
-    else:
-        print(letter)
+    word_without_vowels+=letter
+  
+print(word_without_vowels)
